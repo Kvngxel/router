@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello World</title>
+  <style>
+    body {
+      background-color: white;
+    }
+
+    #hello-world {
+      font-size: 48px;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div id="hello-world">Hello World!</div>
+
+  <script>
+    document.getElementById("hello-world").addEventListener("click", function() {
+      document.body.style.backgroundColor = "red";
+    });
+  </script>
+</body>
+</html>
